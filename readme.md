@@ -6,7 +6,7 @@ Using the game of thrones api -> https://anapioficeandfire.com/Documentation
 
 Create an app that displays your 3 favorite characters. It should display their name (in a header), their title(s) in a p tag under the name, and finally the name of their spouse (if they have one).
 Example:
-![Image](https://gyazo.com/031d466d0c369ce8ff3a906c97f2df87 "Image")
+![Image](https://i.gyazo.com/031d466d0c369ce8ff3a906c97f2df87.png "Image")
 
 Character documentation: https://anapioficeandfire.com/Documentation#characters
 
@@ -25,4 +25,3 @@ Stretch:
  - Allow the user to search for a house by id.
  - Use the same input field for house/character search and have a drop down to determine if you're searching for a house or character.
  - Style it using materialize
- 
