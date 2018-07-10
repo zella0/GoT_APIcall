@@ -24,4 +24,4 @@ Stretch:
  - Make the name of the leader/heir clickable. When a user clicks the name it should add them to the character list above.
  - Allow the user to search for a house by id.
  - Use the same input field for house/character search and have a drop down to determine if you're searching for a house or character.
- - Style it using materialize
+ - Style it using bootstrap.
