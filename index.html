@@ -3,10 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Game of Thrones</title>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src='./script.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-
+    <div class="container" id="mainCont">
+      <div class="container" id="searchContainer">
+        <h1>Game Of Thrones</h1>
+        <form class="" action="index.html" method="post">
+          <label for="aliasInput">Alias: </label>
+          <input type="text" name="aliasInput" value="" autofocus>
+          <label for="nameInput">Name: </label>
+          <input type="text" name="nameInput" value="">
+          <button type="submit" name="searchBtn">Search</button>
+        </form>
+      </div>
+      <div class="container" id="charContainer">
+      </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src='./script.js'></script>
   </body>
 </html>

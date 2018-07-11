@@ -1,0 +1,21 @@
+
+
+body {
+   background: url("https://wallpapersite.com/images/pages/pic_w/7959.jpg") no-repeat fixed;
+   background-size: cover;
+   background-color: #cccccc;
+   color: white;
+}
+
+#mainCont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#charContainer{
+  display:flex;
+  flex-wrap:wrap;
+}
